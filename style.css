@@ -1,0 +1,13 @@
+/* STYLE SECTIONING TAGS*/
+*{ margin: 0px;
+    padding-top: 0px;
+    }
+    
+   body {
+    background-color: #e3eddf; 
+    text-align: center; 
+   
+   }
+   header {
+     background-color: #95c37d;
+   }
