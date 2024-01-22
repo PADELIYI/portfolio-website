@@ -1,13 +1,44 @@
-/* STYLE SECTIONING TAGS*/
+/* STYLE SECTIONING TAGS #314029 #95c37d */
 *{ margin: 0px;
-    padding-top: 0px;
-    }
-    
-   body {
+  padding-top: 0px;
+  }
+
+  body {
     background-color: #e3eddf; 
     text-align: center; 
    
    }
-   header {
-     background-color: #95c37d;
-   }
+
+ header {
+   background-color: #95c37d;
+   text-align: left; 
+ }
+ /* STYLE TEXT */
+ 
+ main{
+    margin-top: 0;
+   margin-bottom: 0;
+   margin-right: 20%;
+   margin-left: 20%;
+   text-align: center; 
+ }
+ h1 {
+   color: black;
+   font-size: 55px;
+   text-align:center
+ }
+ h2 {
+   color: #e3eddf;
+   font-size: 55px;
+   text-align:center
+ }
+ h3 {
+   color: #e3eddf;
+   font-size: 55px;
+   text-align:center
+ }
+ h4 {
+   color: #314029;
+   font-size: 15px;
+   text-align:center
+ }
