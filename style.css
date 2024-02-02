@@ -1,15 +1,14 @@
 /* STYLE SECTIONING TAGS #314029 #95c37d */
 *{ margin: 0px;
-  padding-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   }
 
   body {
-
     height: 100vh;
     width: 100vw;
-    margin: 0rem;
+    margin: 0;
     overflow: hidden;
-
     background-color: #e3eddf; 
     text-align: center; 
    
@@ -19,12 +18,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 50%;
+    overflow: hidden;
 }
 
 .image {
     max-width: 100%; /* Ensure images don't exceed their container width */
+    max-height: 100%;
     height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease;
 }
 
  header {
@@ -34,10 +36,8 @@
  /* STYLE TEXT */
  
  main{
-    margin-top: 0;
-   margin-bottom: 0;
-   margin-right: 20%;
-   margin-left: 20%;
+   margin: auto;
+   width: 30%;
    text-align: center; 
  }
  h1 {
